@@ -7,7 +7,7 @@ import { Pais } from '../interfaces/paises.interface';
   providedIn: 'root',
 })
 export class PaisesService {
-  private apiUrl: string = `https://restcountries.com/v3.1`;
+  private apiUrl: string = `https://restcountries.com/v2`;
 
   constructor(private http: HttpClient) {}
 
